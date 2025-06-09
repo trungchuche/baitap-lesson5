@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài tập tạo form đơn giản</title>
+    <style>
+        body {
+            background-color: #ccffff;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif ;
+        }
+
+        .form-container {
+            width: 600px;
+            margin: 50px auto;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+
+        h2 {
+            background-color: orangered;
+            color: white;
+            text-align: center;
+            margin-top: 0;
+            padding: 10px 0;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 10px;
+        }
+
+        td {
+            padding: 8px;
+            vertical-align: top;
+        }
+
+        label {
+            color: orangered;
+            font-weight: bold;
+        }
+
+        .checkbox-group {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 6px;
+            color: orangered;
+        }
+
+        .buttons {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        input[type="submit"],
+        input[type="reset"] {
+            background-color: #ddd;
+            border: 1px solid black;
+            padding: 8px 20px;
+            margin: 5px;
+            font-weight: bold;
+            box-shadow: 2px 2px 1px #888888;
+        }
+
+        input[type="text"],
+        input[type="email"] {
+            width: 95%;
+            padding: 6px;
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <h2>sở thích của bạn</h2>
+    <form>
+        <table>
+            <tr>
+                <td><lable>Họ và trên:</lable></td>
+                <td><input type="text" value="yourname"></td>
+            </tr>
+            <tr>
+                <td><lable>Email;</lable></td>
+                <td><input type="email" value="yourmail"></td>
+            </tr>
+            <tr>
+                <td><lable>Sở thích:</lable></td>
+                <td>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="hobby" value="tt">Thể thao</label>
+                        <label><input type="checkbox" name="hobby" value="am">Âm nhạc</label>
+                        <label><input type="checkbox" name="hobby" value="ds">Đọc sách</label>
+                        <label><input type="checkbox" name="hobby" value="lw">Lướt web</label>
+                        <label><input type="checkbox" name="hobby" value="cg">Chơi game</label>
+                        <label><input type="checkbox" name="hobby" value="Đa">Điện ảnh</label>
+                        <label><input type="checkbox" name="hobby" value="dl">Du lịch</label>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <div class="buttons">
+            <input type="submit" value="Gửi thông tin">
+            <input type="reset" value="nhập lại">
+        </div>
+
+
+    </form>
+</div>
+</body>
+</html>
