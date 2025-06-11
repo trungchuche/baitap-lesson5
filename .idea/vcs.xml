@@ -2,5 +2,13 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module1/lesson6_tổng_quan_javacript" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module1/lesson7_bien_kieudulieu_toantu/bai_tap_lesson7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module1/lesson7_bien_kieudulieu_toantu/bai_tap_lesson7/bai5_may_tinh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module1/lesson7_bien_kieudulieu_toantu/bai_tap_lesson7/chuyen_doi_tien_te" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module1/lesson7_bien_kieudulieu_toantu/thuc_hanh_lesson7" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module1/lesson7_bien_kieudulieu_toantu/thuc_hanh_lesson7/su_dung_toan_tu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module1/lesson8_cau_truc_dieu_kien1/thuc_hanh" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/module1/lesson8_cau_truc_dieu_kien1/thuc_hanh/bai7_toan_tu_3ngoi" vcs="Git" />
   </component>
 </project>
